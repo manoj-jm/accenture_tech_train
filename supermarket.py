@@ -18,8 +18,8 @@ for i in s:
   if i.isdigit():
     t= t*10 + int(i)
   else:
-      if t>0:
-        ss+=t
+      
+      ss+=t
       t=0
 
 ss+=t
