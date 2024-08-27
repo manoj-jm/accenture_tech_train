@@ -10,4 +10,4 @@ for i in range(len(arr)):
   if f!=1:
     narr.append(-1)
 
-print(narr)
+print(*narr)
