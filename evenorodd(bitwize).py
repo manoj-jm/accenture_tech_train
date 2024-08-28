@@ -20,3 +20,8 @@ toggle with 2nd bits
 k = int(input("enter the k : "))
 res = n*(1<<(k-1))
 print(res)
+
+
+#clear the kth bit of a number ( if 1 then make 0 , if 0 then 0 itself )
+res2 = n*(~(i<<(k-1)))
+print(res2)
